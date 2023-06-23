@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MoneyApp</string>
+    <string name="versionName">1.0</string>
+    <string name="app_version">App version:</string>
+    <string name="tv_title_splash">MONEY</string>
+    <string name="tv_currency_item_value">%s ₽</string>
+    <string name="tv_error_load_data">Невозможно получить данные для даты: %s\nЦБ РФ не устанавливает курсы валют по выходным дням.</string>
+    <string name="hint_value_rub">RUB</string>
+    <string name="et_default">0</string>
+    <string name="tv_exchange_rate">Курс</string>
+    <string name="hint_date">Дата:</string>
+    <string name="iv_description">Кнопка назад</string>
+</resources>
