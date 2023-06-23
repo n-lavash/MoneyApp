@@ -2,7 +2,6 @@ package com.example.moneyapp.data.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.net.URL
 
 class ApiFactory {
     object ApiFactory {

@@ -5,4 +5,4 @@ import com.example.moneyapp.databinding.ItemCurrencyBinding
 
 class CurrencyInfoViewHolder(
     val binding: ItemCurrencyBinding
-): RecyclerView.ViewHolder(binding.root)
+) : RecyclerView.ViewHolder(binding.root)

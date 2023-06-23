@@ -1,15 +1,15 @@
 package com.example.moneyapp.data.database.converters
 
+import androidx.room.TypeConverter
 import com.example.moneyapp.data.database.CurrencyInfoDbModel
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import androidx.room.TypeConverter
 
 
 class Converter {
 
     @TypeConverter
-    fun listCurrencyInfoToString(listCurrencyInfoDbModel: List<CurrencyInfoDbModel>) =
+    fun listCurrencyInfoToString(listCurrencyInfoDbModel: List<CurrencyInfoDbModel>): String =
         Gson().toJson(listCurrencyInfoDbModel)
 
     @TypeConverter

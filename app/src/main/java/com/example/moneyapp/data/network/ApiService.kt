@@ -12,7 +12,7 @@ interface ApiService {
     ): CurrencyInfoListDto
 
     companion object {
-        private const val END_POINT: String  = "daily_json.js"
+        private const val END_POINT: String = "daily_json.js"
         private const val DATE_REQ: String = "date_req"
     }
 }

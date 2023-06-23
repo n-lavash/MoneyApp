@@ -50,7 +50,6 @@ class CurrencyInfoAdapter(
     }
 
 
-
     interface OnCurrencyClickListener {
         fun onCurrencyClick(currencyInfo: CurrencyInfo)
     }
